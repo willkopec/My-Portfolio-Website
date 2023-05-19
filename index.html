@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>
+        I'm Will Kopec
+    </title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/b77545d93f.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+
+                <nav>
+                    <a href="index.html"><img src="images/logo.png" class="logo"></a>
+                    <ul id="sidemenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer</p>
+                    <h1>Hi, I'm <br><span>Will Kopec</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <!------------- About me ----------------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/codebg.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello!
+                            <br> <br>
+                            Welcome to my website. I'm an enthusiastic and dedicated software engineer with a passion for creating innovative solutions. As an aspiring professional in the field, I am actively seeking opportunities to further enhance my skills and contribute to exciting projects.
+                            <br><br>
+                            My interests span across various domains, including Investing/FinTech, Health/Fitness, and Gaming. Exploring these areas has not only fueled my curiosity but also shaped my approach to software development. You'll notice the influence of these passions in the portfolio projects I've worked on.
+                            <br><br>
+                            I have a strong foundation in several programming languages and continue to expand my knowledge. I am proficient in Java, Python, C++, SQL, HTML/CSS, and JavaScript. These languages have enabled me to build robust and dynamic applications while continuously learning and staying up to date with the latest industry trends.
+                            <br><br>
+                            On this website, I aim to showcase my skills, experience, and project highlights. Feel free to explore and get in touch if you have any inquiries or potential collaboration opportunities. I look forward to connecting with like-minded individuals and organizations who share my enthusiasm for software engineering and its endless possibilities.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class ="tab-links" onclick="opentab('experience')">Projects</p>
+                            <p class ="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages:</span><br>Java, Python, C++, HTML/CSS, SQL, JavaScript</li>
+                                <li><span>Developer Tools:</span><br>Eclipse, VS Code, Intellij IDEA, Anaconda, Android Studio, PyCharm</li>
+                                <li><span>Technologies/Frameworks:</span><br>GitHub, MATLAB, SolidWorks</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span><a href="" target="_blank">My Portfolio Website</a></span><br><span id="projectdate">May 2023</span><br>This website was developed using Html, Css, and JavaScript. As I continue to develope this website, I will continue to use different technologies to create different tools for visitors, as well as, expand my knowledge in Web Developement.</li>
+                                <li><span><a href="" target="_blank">MyMarketScreener Application</a></span><br><span id="projectdate">April 2023</span><br>An app developed in Android Studio which is compatible with all android devices and screen sizes. This app uses both Java and Python Libraries to scan through market indices and find stock symbols that fit the criteria of the <a href="https://www.investopedia.com/ask/answers/121114/what-difference-between-golden-cross-and-death-cross-pattern.asp">Golden and Death Cross trading strategies.</a></li>
+                                <li><span><a href="" target="_blank">Covid-19 Vaccine Tracker</a></span><br><span id="projectdate">Feb 2022</span><br>A database management system made for others to keep track of their vaccination information via the web. This application allows you to create a record on the database, which includes all of your vaccination information. You can then view, update, or delete it later.</li>
+                                <li><span><a href="" target="_blank">UIC Campus GPS</a></span><br><span id="projectdate">Dec 2020</span><br>A project created to navigate around the UIC campus in the most optimal time from start to destination.</li>
+                                <li><span><a href="" target="_blank">Bacarrat Game</a></span><br><span id="projectdate">April 2019</span><br>A Server/Client program used to host Bacarrat. The user starts with an arbitrary amount of money and can place bets on the Host, Player, or a tie. If the player wins the bet, they will recieve (Their bet * 1.95) in game money.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>University of Illinois at Chicago</span><br><span id="projectdate">B.S. in Computer Science, earned May 2022</span><br>UIC presented unprecedented scale and diversity of opportunity. My three and half years of phenomenal professors across the disciplines pushed me to expand, challenge, and adjust my worldview.
+                                <br><br>
+                                During my years at UIC, I connected with incredible individuals from diverse backgrounds who shared my passions and interests. Joining SAE @ UIC in my sophomore year was a turning point. Collaborating with peers from different majors, we worked together to build a Formula One car and compete against other universities. The camaraderie within our group fostered growth, as we shared ideas, expanded our knowledge, and honed our problem-solving skills. SAE @ UIC also provided invaluable networking opportunities, introducing me to like-minded individuals in engineering and automotive innovation. These connections have had a lasting impact on my personal and professional journey. My UIC experience empowered me to thrive in a dynamic community where diverse talents and passions converged, fueling collective success. I am grateful for the enriching encounters and collaborations that shaped my personal and academic growth during my time at UIC.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------- services ----------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Need a website made for your business? Feel free to contact me!</p>
+                        <a href="#contact">Contact me</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>Want to have your own application on the Android store? Get in touch with me today!</p>
+                        <a href="#contact">Contact me</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-file-code"></i>
+                        <h2>Software Development</h2>
+                        <p>Want to make an application for Desktop? Feel free to reach out!</p>
+                        <a href="#contact">Contact me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------- Portfolio -------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>My Web developement work</h3>
+                            <p>Check out my Web development experience here!</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>My Application development work</h3>
+                            <p>Check out my Mobile Application development experience here!</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Other Software work</h3>
+                            <p>Check out my Software development experience here!</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!--------- Contact ------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> Kopec.will@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i> 773-799-0194</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/willkopec/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/willkopec/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/willkopec" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                        <a href="WillKopec Resume.pdf" target="_blank" class="btn btn2">Download My Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button id="submitbtn" type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="feedbackmsg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 WillKopec.</p>
+            </div>
+        </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+        </script>
+
+        <script>
+
+            var sidemen = document.getElementById("sidemenu");
+
+
+            function openmenu(){
+
+                sidemen.style.right = "0";
+
+            }
+
+            function closemenu(){
+
+                sidemen.style.right = "-200px";
+
+            }
+
+        </script>
+  
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw9ZN2zw-rlXpRS_gkhXWkfklUlGZ1mcrqAYc7WZv8fv3soPvfEfn1x_4uewrFQdapf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const feedbackmsg = document.getElementById("feedbackmsg")
+
+        var submitbtn = document.getElementById("submitbtn");
+
+        form.addEventListener('submit', e => {
+        submitbtn.innerHTML = "Submitting..."
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                feedbackmsg.innerHTML = "Message sent successfully. Thank you!"
+                submitbtn.innerHTML = "Submit"
+                setTimeout(function(){
+                    feedbackmsg.innerHTML = ""
+                }, 5000)
+                form.reset()
+
+            })
+            .catch(error => 
+                feedbackmsg.innerHTML = "Error! Something went wrong :/"
+            )
+        })
+    </script>
+
+    </body>
+
+
+</html>
