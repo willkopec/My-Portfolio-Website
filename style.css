@@ -340,6 +340,48 @@ form .btn.btn2:hover{
     margin-top: 20px;
 }
 
+/*  ---------- Markets page --------------  */
+#markets{
+    background: #000000;
+}
+#news-title{
+    margin-top: 50px;
+    font-size: 55px;
+    text-align: center;
+}
+#marketnews ul li{
+    font-size: 10px;
+    text-align: center;
+    list-style: none;
+    background-color: #262626;
+    display: block;
+    margin: 0 70px 10px 70px;
+}
+#marketnews ul li #articleTickers{
+    font-size: 15px;
+    color: #7eb6eb;
+    word-wrap: break-word;
+}
+#marketnews ul li #articleTitle{
+    font-size: 20px;
+    color: #2a8eeb;
+}
+#marketnews ul li #articleDescription{
+    font-size: 15px;
+}
+#marketnews ul li #articlePublisher{
+    font-size: 10px;
+}
+#marketnews ul a{
+    font-size: 15px;
+    color: #ababab;
+    font-weight: bold;
+}
+#marketnews ul a:hover{
+    color: #000000;
+}
+
+
 /*    ------------ Phones/Smaller screens ---------------     */
 nav .fa-solid{
     display: none;
